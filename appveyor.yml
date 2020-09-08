@@ -6,6 +6,8 @@ install:
   - pip install tox
   - set PYTHONPATH=C:\projects\docs-from-tests-example
 
+build: off
+
 test_script:
   - tox
 
