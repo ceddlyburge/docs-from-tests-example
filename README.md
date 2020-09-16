@@ -1,6 +1,6 @@
 # Example usage of "docs-from-tests" package
 
-This is a demonstration repo, showing how to use the [docs-from-tests python package](https://github.com/ceddlyburge/docs-from-tests).
+This is a demonstration repo, showing how to use the [docs-from-tests python package](https://github.com/ceddlyburge/docs-from-tests). More background on why should want to do this are in the [How to Create Documentation from Your Python Tests](https://www.freecodecamp.org/news/how-to-create-documentation-from-your-python-tests/) blog post.
 
 The package contains functions to instrument your code / tests to create a sequence diagram (in markdown / [mermaid](https://mermaid-js.github.io/mermaid/)) as the tests run. The sequence diagrams show the runtime call hierachy of the code, and are saved as files in the repository, which are checked in. You can choose to ignore specific functions, and private functions, to make the diagram readable in each context you are interested in.
 
